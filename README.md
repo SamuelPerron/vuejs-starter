@@ -5,8 +5,13 @@ This is a template that you can use to start a VueJS project.
 ## Includes
 
 ### Tools
-- Vue-CLI
+- [Vue-CLI](https://cli.vuejs.org/)
 
+### Plugins
+- [AOS](https://michalsnik.github.io/aos/)
+- [Vue-Axios](https://www.npmjs.com/package/vue-axios)
+- [Vue-Moment](https://www.npmjs.com/package/vue-moment)
+- [Vue-Router](https://www.npmjs.com/package/vue-router)
 
 
 ## Installation
