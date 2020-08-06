@@ -6,12 +6,24 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+Vue.use(VueAxios, axios)
+
 import HelloWorld from './components/HelloWorld.vue'
+
 
 export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  created() {
+    AOS.init();
   }
 }
 </script>
